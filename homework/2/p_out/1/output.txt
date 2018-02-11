@@ -1,0 +1,294 @@
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 16
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.00
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 32
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= inf
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 64
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.00
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 128
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 256
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= inf
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 512
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 10, B = 1024
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 16
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 32
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.20
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 64
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 128
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 256
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 512
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 100, B = 1024
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 16
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.94
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 32
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.73
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 64
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.15
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 128
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.21
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 256
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 512
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.00
+
+ninps = 0, curtest = 0
+N = 10, M = 1000, B = 1024
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.04
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 16
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.98
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 32
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.02
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 64
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.18
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 128
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.84
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 256
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.96
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 512
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 0.96
+
+ninps = 0, curtest = 0
+N = 10, M = 10000, B = 1024
+Naive time: 0.000 sec
+Opt. time:  0.000 sec
+Achieved speedup= 1.04
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 16
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 0.95
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 32
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 1.01
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 64
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 1.16
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 128
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 0.90
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 256
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 0.94
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 512
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 0.97
+
+ninps = 0, curtest = 0
+N = 10, M = 100000, B = 1024
+Naive time: 0.001 sec
+Opt. time:  0.001 sec
+Achieved speedup= 0.98
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 16
+Naive time: 0.010 sec
+Opt. time:  0.011 sec
+Achieved speedup= 0.94
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 32
+Naive time: 0.010 sec
+Opt. time:  0.010 sec
+Achieved speedup= 1.04
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 64
+Naive time: 0.010 sec
+Opt. time:  0.008 sec
+Achieved speedup= 1.21
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 128
+Naive time: 0.010 sec
+Opt. time:  0.011 sec
+Achieved speedup= 0.92
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 256
+Naive time: 0.010 sec
+Opt. time:  0.011 sec
+Achieved speedup= 0.94
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 512
+Naive time: 0.010 sec
+Opt. time:  0.010 sec
+Achieved speedup= 0.97
+
+ninps = 0, curtest = 0
+N = 10, M = 1000000, B = 1024
+Naive time: 0.010 sec
+Opt. time:  0.010 sec
+Achieved speedup= 0.99
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 16
+Naive time: 0.120 sec
+Opt. time:  0.115 sec
+Achieved speedup= 1.05
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 32
+Naive time: 0.121 sec
+Opt. time:  0.101 sec
+Achieved speedup= 1.19
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 64
+Naive time: 0.121 sec
+Opt. time:  0.086 sec
+Achieved speedup= 1.39
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 128
+Naive time: 0.122 sec
+Opt. time:  0.128 sec
+Achieved speedup= 0.95
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 256
+Naive time: 0.122 sec
+Opt. time:  0.125 sec
+Achieved speedup= 0.98
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 512
+Naive time: 0.126 sec
+Opt. time:  0.127 sec
+Achieved speedup= 0.99
+
+ninps = 0, curtest = 0
+N = 10, M = 10000000, B = 1024
+Naive time: 0.120 sec
+Opt. time:  0.121 sec
+Achieved speedup= 0.99
+

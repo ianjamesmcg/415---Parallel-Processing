@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TESTS=( "test.inp" )
-PROG="multiplication-gcc"
+TESTS=( "./input/test*" )
+PROG="multiplication.x"
 TESTS_BASE_DIR="tests"
 OUT_FILE="output.txt"
 i=1

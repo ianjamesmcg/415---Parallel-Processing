@@ -9,12 +9,12 @@
 #
 # Expected runtime of job. Make sure to request a little bit extra.
 #
-#PBS -l walltime=2:00:00
+#PBS -l walltime=0:30:00
 
 #
 # Amount of memory required by job.
 #
-#PBS -l mem=60gb
+#PBS -l mem=128gb
 
 #
 # Pipe stderr into stdout.
@@ -30,7 +30,7 @@
 # Send email notification to your MSU email when the job begins, ends, or is
 # aborted by the scheduler.
 #
-#PBS -M your-username@msu.edu
+#PBS -M mcgreg45@msu.edu
 #PBS -m abe
 
 module purge
@@ -51,6 +51,5 @@ cd ${PBS_O_WORKDIR}
 # etc.)
 #
 
-make multiplication -j && ./multiplication.x test input1.txt
+make multiplication-tau -j && ./run_perf.bash
 
-./multiplication.x perf 10000 10000 100 >& results_10000_10000_100.txt

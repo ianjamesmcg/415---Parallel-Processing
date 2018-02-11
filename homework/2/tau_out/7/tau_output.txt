@@ -1,0 +1,1022 @@
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 16
+Naive time: 0.089 sec
+Opt. time:  0.139 sec
+Achieved speedup= 0.64
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        2,111           1           1    2111925 .TAU application
+ 99.6            3        2,104           1          32    2104053 main 
+ 41.5          875          875           1           0     875480 initMatrix 
+ 32.9          694          694           5           0     138923 optMultiplication 
+ 21.1          444          444           5           0      88982 naiveMultiplication 
+  4.0           85           85          10           0       8519 clear_output_matrix 
+  0.0        0.046        0.046          10           0          5 getElapsed 
+  0.0        0.021        0.021           1           0         21 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.943E+04   1.502E+08           1           1  150160880 .TAU application
+ 99.9        4711   1.501E+08           1          32  150061450 main 
+ 45.8   6.879E+07   6.879E+07           5           0   13758265 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755888 naiveMultiplication 
+  8.3   1.249E+07   1.249E+07           1           0   12485229 initMatrix 
+  0.0         609         609          10           0         61 clear_output_matrix 
+  0.0          97          97          10           0         10 getElapsed 
+  0.0          39          39           1           0         39 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.037E+05   1.728E+08           1           1  172847650 .TAU application
+ 99.9        8885   1.727E+08           1          32  172743975 main 
+ 49.7   8.596E+07   8.596E+07           5           0   17191126 naiveMultiplication 
+ 43.0   7.432E+07   7.432E+07           5           0   14864555 optMultiplication 
+  7.2   1.246E+07   1.246E+07           1           0   12455936 initMatrix 
+  0.0         607         607          10           0         61 clear_output_matrix 
+  0.0         102         102          10           0         10 getElapsed 
+  0.0          43          43           1           0         43 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         579   1.149E+08           1           1  114877637 .TAU application
+100.0        4957   1.149E+08           1          32  114877058 main 
+ 55.0   6.319E+07   6.319E+07           5           0   12638931 optMultiplication 
+ 45.0   5.165E+07   5.165E+07           5           0   10330487 naiveMultiplication 
+  0.0   2.473E+04   2.473E+04           1           0      24727 initMatrix 
+  0.0         176         176          10           0         18 clear_output_matrix 
+  0.0          87          87          10           0          9 getElapsed 
+  0.0          20          20           1           0         20 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 32
+Naive time: 0.087 sec
+Opt. time:  0.108 sec
+Achieved speedup= 0.81
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,947           1           1    1947275 .TAU application
+ 99.6            3        1,939           1          32    1939460 main 
+ 44.9          874          874           1           0     874053 initMatrix 
+ 27.7          539          539           5           0     107975 optMultiplication 
+ 22.4          436          436           5           0      87360 naiveMultiplication 
+  4.4           85           85          10           0       8501 clear_output_matrix 
+  0.0        0.043        0.043          10           0          4 getElapsed 
+  0.0        0.007        0.007           1           0          7 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    9.95E+04   1.502E+08           1           1  150173297 .TAU application
+ 99.9        4558   1.501E+08           1          32  150073802 main 
+ 45.8   6.879E+07   6.879E+07           5           0   13758359 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755837 naiveMultiplication 
+  8.3    1.25E+07    1.25E+07           1           0   12497555 initMatrix 
+  0.0         609         609          10           0         61 clear_output_matrix 
+  0.0          67          67          10           0          7 getElapsed 
+  0.0          31          31           1           0         31 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.033E+05   1.772E+08           1           1  177246572 .TAU application
+ 99.9        9065   1.771E+08           1          32  177143270 main 
+ 48.6   8.613E+07   8.613E+07           5           0   17226157 naiveMultiplication 
+ 44.3   7.854E+07   7.854E+07           5           0   15707825 optMultiplication 
+  7.0   1.246E+07   1.246E+07           1           0   12463566 initMatrix 
+  0.0         579         579          10           0         58 clear_output_matrix 
+  0.0         100         100          10           0         10 getElapsed 
+  0.0          48          48           1           0         48 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         595   1.105E+08           1           1  110483538 .TAU application
+100.0        5049   1.105E+08           1          32  110482943 main 
+ 53.4   5.899E+07   5.899E+07           5           0   11797721 optMultiplication 
+ 46.6   5.148E+07   5.148E+07           5           0   10296266 naiveMultiplication 
+  0.0        7663        7663           1           0       7663 initMatrix 
+  0.0         183         183          10           0         18 clear_output_matrix 
+  0.0          89          89          10           0          9 getElapsed 
+  0.0          24          24           1           0         24 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 64
+Naive time: 0.087 sec
+Opt. time:  0.098 sec
+Achieved speedup= 0.89
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,892           1           1    1892366 .TAU application
+ 99.6            3        1,884           1          32    1884700 main 
+ 46.2          874          874           1           0     874375 initMatrix 
+ 25.8          487          487           5           0      97564 optMultiplication 
+ 23.0          435          435           5           0      87044 naiveMultiplication 
+  4.4           83           83          10           0       8363 clear_output_matrix 
+  0.0        0.042        0.042          10           0          4 getElapsed 
+  0.0        0.006        0.006           1           0          6 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.939E+04   1.502E+08           1           1  150174937 .TAU application
+ 99.9        4773   1.501E+08           1          32  150075549 main 
+ 45.8   6.879E+07   6.879E+07           5           0   13758714 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755917 naiveMultiplication 
+  8.3    1.25E+07    1.25E+07           1           0   12496799 initMatrix 
+  0.0         675         675          10           0         68 clear_output_matrix 
+  0.0          97          97          10           0         10 getElapsed 
+  0.0          49          49           1           0         49 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.025E+05    1.81E+08           1           1  181044369 .TAU application
+ 99.9        9305   1.809E+08           1          32  180941856 main 
+ 47.6   8.615E+07   8.615E+07           5           0   17229414 naiveMultiplication 
+ 45.5   8.233E+07   8.233E+07           5           0   16465967 optMultiplication 
+  6.9   1.245E+07   1.245E+07           1           0   12454859 initMatrix 
+  0.0         593         593          10           0         59 clear_output_matrix 
+  0.0         124         124          10           0         12 getElapsed 
+  0.0          69          69           1           0         69 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         560   1.067E+08           1           1  106725861 .TAU application
+100.0        5147   1.067E+08           1          32  106725301 main 
+ 51.7   5.522E+07   5.522E+07           5           0   11043627 optMultiplication 
+ 48.2   5.147E+07   5.147E+07           5           0   10293698 naiveMultiplication 
+  0.0   3.314E+04   3.314E+04           1           0      33137 initMatrix 
+  0.0         254         254          10           0         25 clear_output_matrix 
+  0.0         111         111          10           0         11 getElapsed 
+  0.0          27          27           1           0         27 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 128
+Naive time: 0.088 sec
+Opt. time:  0.094 sec
+Achieved speedup= 0.94
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,882           1           1    1882630 .TAU application
+ 99.6            3        1,875           1          32    1875037 main 
+ 46.6          877          877           1           0     877752 initMatrix 
+ 24.8          467          467           5           0      93530 optMultiplication 
+ 23.4          441          441           5           0      88242 naiveMultiplication 
+  4.5           84           84          10           0       8484 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.007        0.007           1           0          7 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.155E+05   1.502E+08           1           1  150173877 .TAU application
+ 99.9        4702   1.501E+08           1          32  150058338 main 
+ 45.8   6.878E+07   6.878E+07           5           0   13756643 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755920 naiveMultiplication 
+  8.3   1.249E+07   1.249E+07           1           0   12490020 initMatrix 
+  0.0         647         647          10           0         65 clear_output_matrix 
+  0.0         113         113          10           0         11 getElapsed 
+  0.0          42          42           1           0         42 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    1.19E+05   1.826E+08           1           1  182578457 .TAU application
+ 99.9        8911   1.825E+08           1          32  182459448 main 
+ 47.1   8.602E+07   8.602E+07           5           0   17203387 naiveMultiplication 
+ 46.0   8.397E+07   8.397E+07           5           0   16794477 optMultiplication 
+  6.8   1.246E+07   1.246E+07           1           0   12460509 initMatrix 
+  0.0         528         528          10           0         53 clear_output_matrix 
+  0.0         112         112          10           0         11 getElapsed 
+  0.0          67          67           1           0         67 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         558   1.052E+08           1           1  105213337 .TAU application
+100.0        4950   1.052E+08           1          32  105212779 main 
+ 50.9   5.359E+07   5.359E+07           5           0   10717377 optMultiplication 
+ 49.0   5.159E+07   5.159E+07           5           0   10318397 naiveMultiplication 
+  0.0   2.864E+04   2.864E+04           1           0      28640 initMatrix 
+  0.0         201         201          10           0         20 clear_output_matrix 
+  0.0          90          90          10           0          9 getElapsed 
+  0.0          28          28           1           0         28 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 256
+Naive time: 0.090 sec
+Opt. time:  0.092 sec
+Achieved speedup= 0.97
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,893           1           1    1893197 .TAU application
+ 99.6            3        1,885           1          32    1885694 main 
+ 46.8          885          885           1           0     885428 initMatrix 
+ 24.4          461          461           5           0      92285 optMultiplication 
+ 23.8          449          449           5           0      89972 naiveMultiplication 
+  4.5           85           85          10           0       8525 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.007        0.007           1           0          7 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.941E+04   1.502E+08           1           1  150164949 .TAU application
+ 99.9        4647   1.501E+08           1          32  150065536 main 
+ 45.8   6.878E+07   6.878E+07           5           0   13756413 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755918 naiveMultiplication 
+  8.3    1.25E+07    1.25E+07           1           0   12498496 initMatrix 
+  0.0         610         610          10           0         61 clear_output_matrix 
+  0.0          86          86          10           0          9 getElapsed 
+  0.0          43          43           1           0         43 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.027E+05    1.84E+08           1           1  183962061 .TAU application
+ 99.9        9090   1.839E+08           1          32  183859357 main 
+ 46.8   8.601E+07   8.601E+07           5           0   17201748 naiveMultiplication 
+ 46.4   8.538E+07   8.538E+07           5           0   17076258 optMultiplication 
+  6.8   1.246E+07   1.246E+07           1           0   12459485 initMatrix 
+  0.0         571         571          10           0         57 clear_output_matrix 
+  0.0         119         119          10           0         12 getElapsed 
+  0.0          63          63           1           0         63 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         588   1.038E+08           1           1  103842613 .TAU application
+100.0        5109   1.038E+08           1          32  103842025 main 
+ 50.3   5.223E+07   5.223E+07           5           0   10445318 optMultiplication 
+ 49.7   5.161E+07   5.161E+07           5           0   10321229 naiveMultiplication 
+  0.0        3880        3880           1           0       3880 initMatrix 
+  0.0         177         177          10           0         18 clear_output_matrix 
+  0.0         100         100          10           0         10 getElapsed 
+  0.0          27          27           1           0         27 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 512
+Naive time: 0.088 sec
+Opt. time:  0.089 sec
+Achieved speedup= 0.98
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,852           1           1    1852706 .TAU application
+ 99.6            3        1,845           1          32    1845199 main 
+ 47.1          872          872           1           0     872022 initMatrix 
+ 24.1          446          446           5           0      89251 optMultiplication 
+ 23.6          437          437           5           0      87560 naiveMultiplication 
+  4.6           85           85          10           0       8527 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.007        0.007           1           0          7 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.934E+04   1.501E+08           1           1  150145346 .TAU application
+ 99.9        4723     1.5E+08           1          32  150046003 main 
+ 45.8   6.878E+07   6.878E+07           5           0   13756421 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755884 naiveMultiplication 
+  8.3   1.248E+07   1.248E+07           1           0   12478873 initMatrix 
+  0.0         737         737          10           0         74 clear_output_matrix 
+  0.0          98          98          10           0         10 getElapsed 
+  0.0          45          45           1           0         45 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.023E+05   1.842E+08           1           1  184169049 .TAU application
+ 99.9        8998   1.841E+08           1          32  184066769 main 
+ 46.8   8.613E+07   8.613E+07           5           0   17226454 naiveMultiplication 
+ 46.4   8.548E+07   8.548E+07           5           0   17095995 optMultiplication 
+  6.8   1.244E+07   1.244E+07           1           0   12444580 initMatrix 
+  0.0         738         738          10           0         74 clear_output_matrix 
+  0.0         119         119          10           0         12 getElapsed 
+  0.0          88          88           1           0         88 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         549   1.036E+08           1           1  103629620 .TAU application
+100.0        5014   1.036E+08           1          32  103629071 main 
+ 50.3   5.212E+07   5.212E+07           5           0   10424345 optMultiplication 
+ 49.7   5.148E+07   5.148E+07           5           0   10296409 naiveMultiplication 
+  0.0   1.982E+04   1.982E+04           1           0      19815 initMatrix 
+  0.0         332         332          10           0         33 clear_output_matrix 
+  0.0          96          96          10           0         10 getElapsed 
+  0.0          44          44           1           0         44 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 10, B = 1024
+Naive time: 0.088 sec
+Opt. time:  0.088 sec
+Achieved speedup= 0.99
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7        1,849           1           1    1849918 .TAU application
+ 99.6            3        1,842           1          32    1842506 main 
+ 47.3          874          874           1           0     874770 initMatrix 
+ 23.9          441          441           5           0      88331 optMultiplication 
+ 23.7          438          438           5           0      87777 naiveMultiplication 
+  4.5           83           83          10           0       8333 clear_output_matrix 
+  0.0        0.048        0.048          10           0          5 getElapsed 
+  0.0        0.007        0.007           1           0          7 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.948E+04   1.502E+08           1           1  150151109 .TAU application
+ 99.9        4637   1.501E+08           1          32  150051631 main 
+ 45.8   6.878E+07   6.878E+07           5           0   13756328 optMultiplication 
+ 45.8   6.878E+07   6.878E+07           5           0   13755848 naiveMultiplication 
+  8.3   1.249E+07   1.249E+07           1           0   12485375 initMatrix 
+  0.0         604         604          10           0         60 clear_output_matrix 
+  0.0          93          93          10           0          9 getElapsed 
+  0.0          40          40           1           0         40 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.019E+05   1.843E+08           1           1  184300838 .TAU application
+ 99.9        9029   1.842E+08           1          32  184198899 main 
+ 46.7   8.605E+07   8.605E+07           5           0   17210128 naiveMultiplication 
+ 46.5   8.569E+07   8.569E+07           5           0   17138710 optMultiplication 
+  6.8   1.244E+07   1.244E+07           1           0   12444972 initMatrix 
+  0.0         528         528          10           0         53 clear_output_matrix 
+  0.0         119         119          10           0         12 getElapsed 
+  0.0          59          59           1           0         59 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         547   1.035E+08           1           1  103500443 .TAU application
+100.0        5038   1.035E+08           1          32  103499896 main 
+ 50.2   5.191E+07   5.191E+07           5           0   10381830 optMultiplication 
+ 49.8   5.156E+07   5.156E+07           5           0   10311999 naiveMultiplication 
+  0.0   2.541E+04   2.541E+04           1           0      25410 initMatrix 
+  0.0         182         182          10           0         18 clear_output_matrix 
+  0.0          94          94          10           0          9 getElapsed 
+  0.0          26          26           1           0         26 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 16
+Naive time: 0.981 sec
+Opt. time:  1.292 sec
+Achieved speedup= 0.76
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       20,286           1           1   20286201 .TAU application
+100.0           17       20,278           1          32   20278603 main 
+ 43.4        8,811        8,811           1           0    8811491 initMatrix 
+ 31.9        6,462        6,462           5           0    1292455 optMultiplication 
+ 24.2        4,902        4,902           5           0     980519 naiveMultiplication 
+  0.4           84           84          10           0       8434 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.009        0.009           1           0          9 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.927E+04   1.388E+09           1           1 1387912095 .TAU application
+100.0        5101   1.388E+09           1          32 1387812823 main 
+ 45.5   6.314E+08   6.314E+08           5           0  126288641 naiveMultiplication 
+ 45.5   6.313E+08   6.313E+08           5           0  126262955 optMultiplication 
+  9.0    1.25E+08    1.25E+08           1           0  125048736 initMatrix 
+  0.0         860         860          10           0         86 clear_output_matrix 
+  0.0          93          93          10           0          9 getElapsed 
+  0.0          52          52           1           0         52 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.025E+05   1.495E+09           1           1 1495474877 .TAU application
+100.0   1.043E+04   1.495E+09           1          32 1495372365 main 
+ 48.6   7.263E+08   7.263E+08           5           0  145254623 naiveMultiplication 
+ 43.1   6.444E+08   6.444E+08           5           0  128885604 optMultiplication 
+  8.3   1.247E+08   1.247E+08           1           0  124659744 initMatrix 
+  0.0         841         841          10           0         84 clear_output_matrix 
+  0.0         106         106           1           0        106 initVector 
+  0.0         105         105          10           0         10 getElapsed 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         607   1.155E+09           1           1 1154798283 .TAU application
+100.0        6182   1.155E+09           1          32 1154797676 main 
+ 53.5   6.183E+08   6.183E+08           5           0  123658734 optMultiplication 
+ 46.5   5.365E+08   5.365E+08           5           0  107297833 naiveMultiplication 
+  0.0        8090        8090           1           0       8090 initMatrix 
+  0.0         433         433          10           0         43 clear_output_matrix 
+  0.0          94          94          10           0          9 getElapsed 
+  0.0          44          44           1           0         44 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 32
+Naive time: 0.989 sec
+Opt. time:  1.205 sec
+Achieved speedup= 0.82
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            8       19,838           1           1   19838108 .TAU application
+100.0           18       19,829           1          32   19829953 main 
+ 44.1        8,755        8,755           1           0    8755992 initMatrix 
+ 30.4        6,025        6,025           5           0    1205181 optMultiplication 
+ 24.9        4,944        4,944           5           0     988934 naiveMultiplication 
+  0.4           84           84          10           0       8492 clear_output_matrix 
+  0.0        0.046        0.046          10           0          5 getElapsed 
+  0.0        0.009        0.009           1           0          9 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.927E+04   1.388E+09           1           1 1388144336 .TAU application
+100.0        5080   1.388E+09           1          32 1388045064 main 
+ 45.5   6.316E+08   6.316E+08           5           0  126321022 optMultiplication 
+ 45.5   6.314E+08   6.314E+08           5           0  126274610 naiveMultiplication 
+  9.0   1.251E+08   1.251E+08           1           0  125060764 initMatrix 
+  0.0         926         926          10           0         93 clear_output_matrix 
+  0.0          95          95          10           0         10 getElapsed 
+  0.0          41          41           1           0         41 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.025E+05   1.549E+09           1           1 1548650476 .TAU application
+100.0   1.042E+04   1.549E+09           1          32 1548547956 main 
+ 46.9   7.264E+08   7.264E+08           5           0  145271484 naiveMultiplication 
+ 45.0   6.975E+08   6.975E+08           5           0  139505126 optMultiplication 
+  8.0   1.247E+08   1.247E+08           1           0  124653383 initMatrix 
+  0.0         900         900          10           0         90 clear_output_matrix 
+  0.0         106         106          10           0         11 getElapsed 
+  0.0          98          98           1           0         98 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         574   1.105E+09           1           1 1105372015 .TAU application
+100.0        6345   1.105E+09           1          32 1105371441 main 
+ 51.5   5.689E+08   5.689E+08           5           0  113788717 optMultiplication 
+ 48.5   5.364E+08   5.364E+08           5           0  107281679 naiveMultiplication 
+  0.0   1.247E+04   1.247E+04           1           0      12469 initMatrix 
+  0.0         502         502          10           0         50 clear_output_matrix 
+  0.0         100         100          10           0         10 getElapsed 
+  0.0          44          44           1           0         44 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 64
+Naive time: 0.976 sec
+Opt. time:  1.091 sec
+Achieved speedup= 0.90
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            8       19,165           1           1   19165543 .TAU application
+100.0           18       19,157           1          32   19157164 main 
+ 45.5        8,719        8,719           1           0    8719764 initMatrix 
+ 28.5        5,453        5,453           5           0    1090789 optMultiplication 
+ 25.5        4,881        4,881           5           0     976379 naiveMultiplication 
+  0.4           83           83          10           0       8324 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.009        0.009           1           0          9 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.945E+04   1.388E+09           1           1 1388209489 .TAU application
+100.0        5047   1.388E+09           1          32 1388110036 main 
+ 45.5   6.317E+08   6.317E+08           5           0  126338345 optMultiplication 
+ 45.5   6.314E+08   6.314E+08           5           0  126274198 naiveMultiplication 
+  9.0    1.25E+08    1.25E+08           1           0  125041341 initMatrix 
+  0.0         792         792          10           0         79 clear_output_matrix 
+  0.0         104         104          10           0         10 getElapsed 
+  0.0          39          39           1           0         39 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.026E+05   1.588E+09           1           1 1587966869 .TAU application
+100.0   1.046E+04   1.588E+09           1          32 1587864284 main 
+ 46.4   7.371E+08   7.371E+08           5           0  147428839 optMultiplication 
+ 45.7   7.261E+08   7.261E+08           5           0  145213299 naiveMultiplication 
+  7.8   1.246E+08   1.246E+08           1           0  124642179 initMatrix 
+  0.0         731         731          10           0         73 clear_output_matrix 
+  0.0         122         122          10           0         12 getElapsed 
+  0.0         101         101           1           0        101 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         591   1.065E+09           1           1 1064897487 .TAU application
+100.0        6293   1.065E+09           1          32 1064896896 main 
+ 50.4   5.367E+08   5.367E+08           5           0  107338113 naiveMultiplication 
+ 49.6   5.282E+08   5.282E+08           5           0  105632517 optMultiplication 
+  0.0   3.694E+04   3.694E+04           1           0      36941 initMatrix 
+  0.0         362         362          10           0         36 clear_output_matrix 
+  0.0         110         110          10           0         11 getElapsed 
+  0.0          41          41           1           0         41 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 128
+Naive time: 0.982 sec
+Opt. time:  1.092 sec
+Achieved speedup= 0.90
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       19,276           1           1   19276934 .TAU application
+100.0           17       19,269           1          32   19269129 main 
+ 45.6        8,795        8,795           1           0    8795383 initMatrix 
+ 28.3        5,461        5,461           5           0    1092318 optMultiplication 
+ 25.5        4,910        4,910           5           0     982150 naiveMultiplication 
+  0.4           83           83          10           0       8370 clear_output_matrix 
+  0.0        0.047        0.047          10           0          5 getElapsed 
+  0.0        0.008        0.008           1           0          8 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.927E+04   1.389E+09           1           1 1389043462 .TAU application
+100.0        4926   1.389E+09           1          32 1388944189 main 
+ 45.5   6.325E+08   6.325E+08           5           0  126495371 optMultiplication 
+ 45.5   6.314E+08   6.314E+08           5           0  126273953 naiveMultiplication 
+  9.0   1.251E+08   1.251E+08           1           0  125091366 initMatrix 
+  0.0        1074        1074          10           0        107 clear_output_matrix 
+  0.0         153         153          10           0         15 getElapsed 
+  0.0          53          53           1           0         53 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.036E+05   1.618E+09           1           1 1617620801 .TAU application
+100.0        9285   1.618E+09           1          32 1617517244 main 
+ 47.4   7.672E+08   7.672E+08           5           0  153430257 optMultiplication 
+ 44.9   7.256E+08   7.256E+08           5           0  145127170 naiveMultiplication 
+  7.7   1.247E+08   1.247E+08           1           0  124719658 initMatrix 
+  0.0         944         944          10           0         94 clear_output_matrix 
+  0.0         122         122          10           0         12 getElapsed 
+  0.0          99          99           1           0         99 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         637   1.035E+09           1           1 1035383601 .TAU application
+100.0        5439   1.035E+09           1          32 1035382964 main 
+ 51.9   5.371E+08   5.371E+08           5           0  107423488 naiveMultiplication 
+ 48.1   4.982E+08   4.982E+08           5           0   99646306 optMultiplication 
+  0.0    2.79E+04    2.79E+04           1           0      27901 initMatrix 
+  0.0         488         488          10           0         49 clear_output_matrix 
+  0.0         105         105          10           0         10 getElapsed 
+  0.0          61          61           1           0         61 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 256
+Naive time: 0.980 sec
+Opt. time:  1.229 sec
+Achieved speedup= 0.80
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       19,986           1           1   19986228 .TAU application
+100.0           17       19,978           1          32   19978762 main 
+ 44.2        8,833        8,833           1           0    8833292 initMatrix 
+ 30.7        6,142        6,142           5           0    1228576 optMultiplication 
+ 24.5        4,900        4,900           5           0     980175 naiveMultiplication 
+  0.4           84           84          10           0       8448 clear_output_matrix 
+  0.0        0.045        0.045          10           0          4 getElapsed 
+  0.0        0.009        0.009           1           0          9 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.921E+04   1.415E+09           1           1 1414640371 .TAU application
+100.0        4895   1.415E+09           1          32 1414541164 main 
+ 46.5   6.581E+08   6.581E+08           5           0  131617190 optMultiplication 
+ 44.6   6.314E+08   6.314E+08           5           0  126275454 naiveMultiplication 
+  8.8   1.251E+08   1.251E+08           1           0  125071982 initMatrix 
+  0.0         907         907          10           0         91 clear_output_matrix 
+  0.0          98          98          10           0         10 getElapsed 
+  0.0          61          61           1           0         61 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.027E+05   1.614E+09           1           1 1613674537 .TAU application
+100.0    1.02E+04   1.614E+09           1          32 1613571820 main 
+ 47.3   7.631E+08   7.631E+08           5           0  152610421 optMultiplication 
+ 45.0   7.258E+08   7.258E+08           5           0  145169397 naiveMultiplication 
+  7.7   1.247E+08   1.247E+08           1           0  124661412 initMatrix 
+  0.0         908         908          10           0         91 clear_output_matrix 
+  0.0         112         112           1           0        112 initVector 
+  0.0          93          93          10           0          9 getElapsed 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         589   1.042E+09           1           1 1042015687 .TAU application
+100.0        6162   1.042E+09           1          32 1042015098 main 
+ 51.5   5.369E+08   5.369E+08           5           0  107382627 naiveMultiplication 
+ 48.5   5.051E+08   5.051E+08           5           0  101016557 optMultiplication 
+  0.0    1.24E+04    1.24E+04           1           0      12405 initMatrix 
+  0.0         480         480          10           0         48 clear_output_matrix 
+  0.0          86          86          10           0          9 getElapsed 
+  0.0          49          49           1           0         49 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 512
+Naive time: 0.970 sec
+Opt. time:  1.062 sec
+Achieved speedup= 0.91
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       18,982           1           1   18982429 .TAU application
+100.0           17       18,974           1          32   18974938 main 
+ 45.9        8,716        8,716           1           0    8716971 initMatrix 
+ 28.0        5,309        5,309           5           0    1061870 optMultiplication 
+ 25.5        4,849        4,849           5           0     969807 naiveMultiplication 
+  0.4           82           82          10           0       8230 clear_output_matrix 
+  0.0        0.043        0.043          10           0          4 getElapsed 
+  0.0        0.009        0.009           1           0          9 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.932E+04   1.613E+09           1           1 1612746333 .TAU application
+100.0        5011   1.613E+09           1          32 1612647018 main 
+ 53.1   8.562E+08   8.562E+08           5           0  171246755 optMultiplication 
+ 39.1   6.314E+08   6.314E+08           5           0  126274707 naiveMultiplication 
+  7.8    1.25E+08    1.25E+08           1           0  125033706 initMatrix 
+  0.0         827         827          10           0         83 clear_output_matrix 
+  0.0         111         111          10           0         11 getElapsed 
+  0.0          51          51           1           0         51 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.031E+05   1.636E+09           1           1 1635700921 .TAU application
+100.0   1.016E+04   1.636E+09           1          32 1635597786 main 
+ 48.0   7.855E+08   7.855E+08           5           0  157092010 optMultiplication 
+ 44.4   7.255E+08   7.255E+08           5           0  145094201 naiveMultiplication 
+  7.6   1.247E+08   1.247E+08           1           0  124655555 initMatrix 
+  0.0         826         826          10           0         83 clear_output_matrix 
+  0.0         100         100           1           0        100 initVector 
+  0.0          87          87          10           0          9 getElapsed 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         627   1.017E+09           1           1 1016527509 .TAU application
+100.0        6174   1.017E+09           1          32 1016526882 main 
+ 52.9   5.373E+08   5.373E+08           5           0  107458334 naiveMultiplication 
+ 47.1   4.792E+08   4.792E+08           5           0   95844247 optMultiplication 
+  0.0        7205        7205           1           0       7205 initMatrix 
+  0.0         471         471          10           0         47 clear_output_matrix 
+  0.0          79          79          10           0          8 getElapsed 
+  0.0          45          45           1           0         45 initVector 
+
+
+%			
+%
+%
+
+				
+ninps = 0, curtest = 0
+N = 10000000, M = 100, B = 1024
+Naive time: 0.976 sec
+Opt. time:  0.975 sec
+Achieved speedup= 1.00
+
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       18,570           1           1   18570531 .TAU application
+100.0           17       18,562           1          32   18562887 main 
+ 46.9        8,703        8,703           1           0    8703086 initMatrix 
+ 26.3        4,882        4,882           5           0     976482 naiveMultiplication 
+ 26.3        4,876        4,876           5           0     975234 optMultiplication 
+  0.5           83           83          10           0       8395 clear_output_matrix 
+  0.0        0.045        0.045          10           0          4 getElapsed 
+  0.0        0.008        0.008           1           0          8 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   9.942E+04   1.389E+09           1           1 1388673527 .TAU application
+100.0        5037   1.389E+09           1          32 1388574110 main 
+ 45.5   6.322E+08   6.322E+08           5           0  126430423 optMultiplication 
+ 45.5   6.314E+08   6.314E+08           5           0  126274522 naiveMultiplication 
+  9.0    1.25E+08    1.25E+08           1           0  125043398 initMatrix 
+  0.0         803         803          10           0         80 clear_output_matrix 
+  0.0         106         106          10           0         11 getElapsed 
+  0.0          44          44           1           0         44 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.031E+05   1.578E+09           1           1 1577825714 .TAU application
+100.0   1.016E+04   1.578E+09           1          32 1577722619 main 
+ 46.1   7.268E+08   7.268E+08           5           0  145368957 naiveMultiplication 
+ 46.0   7.262E+08   7.262E+08           5           0  145242778 optMultiplication 
+  7.9   1.247E+08   1.247E+08           1           0  124652907 initMatrix 
+  0.0         683         683          10           0         68 clear_output_matrix 
+  0.0          95          95          10           0         10 getElapsed 
+  0.0          93          93           1           0         93 initVector 
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         633   1.073E+09           1           1 1072528483 .TAU application
+100.0        6118   1.073E+09           1          32 1072527850 main 
+ 50.0   5.366E+08   5.366E+08           5           0  107311383 optMultiplication 
+ 50.0   5.359E+08   5.359E+08           5           0  107186407 naiveMultiplication 
+  0.0   3.234E+04   3.234E+04           1           0      32337 initMatrix 
+  0.0         319         319          10           0         32 clear_output_matrix 
+  0.0          85          85          10           0          8 getElapsed 
+  0.0          42          42           1           0         42 initVector 
+
+
+%			
+%
+%
+
+				

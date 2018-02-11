@@ -1,0 +1,11 @@
+8 templated_functions_MULTI_PAPI_L3_TCM
+# Name Calls Subrs Excl Incl ProfileCalls # <metadata><attribute><name>Metric Name</name><value>PAPI_L3_TCM</value></attribute></metadata>
+".TAU application" 1 1 633 1072528483 0 GROUP="TAU_USER" 
+"main [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/./src/main.c} {73,0}]" 1 32 6118 1072527850 0 GROUP="TAU_DEFAULT" 
+"initMatrix [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/./src/main.c} {18,0}]" 1 0 32337 32337 0 GROUP="TAU_DEFAULT" 
+"initVector [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/./src/main.c} {37,0}]" 1 0 42 42 0 GROUP="TAU_DEFAULT" 
+"clear_output_matrix [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/./src/main.c} {30,0}]" 10 0 319 319 0 GROUP="TAU_DEFAULT" 
+"naiveMultiplication [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/src/naiveMultiplication.c} {3,0}]" 5 0 535932033 535932033 0 GROUP="TAU_DEFAULT" 
+"getElapsed [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/./src/main.c} {51,0}]" 10 0 85 85 0 GROUP="TAU_DEFAULT" 
+"optMultiplication [{/mnt/home/mcgreg45/cse415-mcgreg45/homework/2/src/optMultiplication.c} {3,0}]" 5 0 536556916 536556916 0 GROUP="TAU_DEFAULT" 
+0 aggregates

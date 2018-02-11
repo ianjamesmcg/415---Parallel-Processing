@@ -119,7 +119,7 @@ int main(int argc, char* argv[]){
     }
     
     // If doing testing run, print header for output to CSV file.
-    if (testing) printf( "N,M,B,naive_time,opt_time,opt_correct\n" );
+    if (testing) printf( "N,M,B,naive_time,opt_time,opt_correct,speedup\n" );
 
 
       // main loop: executed only once for performance testing to ensure cold start.
@@ -143,7 +143,7 @@ int main(int argc, char* argv[]){
         }
         
         if (testing) {
-            printf( "%d,%d,%d,", N, M, B );
+            printf( "%7d,%7d,%4d,", N, M, B );
         } else {
             printf("ninps = %d, curtest = %d\n", num_test, curr_test);
             printf("N = %d, M = %d, B = %d\n", N, M, B);
@@ -186,8 +186,7 @@ int main(int argc, char* argv[]){
         
         // How do results compare?
         if (testing) {
-            printf( "%.4e,%.4e,%d\n", total_naive_time/multiply_times, total_opt_time/multiply_times,
-                   checkDifference(naiveoutput, optoutput, N) );
+            printf( "%.4e,%.4e,%d,	%.2f\n", total_naive_time/multiply_times, total_opt_time/multiply_times, checkDifference(naiveoutput, optoutput, N), total_naive_time/total_opt_time);
         } else {
            // checkDifference(naiveoutput,optoutput,N);
             printf("Naive time: %.3f sec\n", total_naive_time/multiply_times);
