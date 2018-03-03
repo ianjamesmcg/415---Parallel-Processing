@@ -75,8 +75,8 @@ int main( int argc, char* argv[] )
         double stop = omp_get_wtime();
         time_atomic = stop - start;
     }
-
-    // Time parallel calculation with reduction
+    
+	// Time parallel calculation with reduction
     {
         double start = omp_get_wtime();
         pi_reduction = parallelCompute_reduction(iterations, numberOfThreads);
@@ -88,7 +88,7 @@ int main( int argc, char* argv[] )
     double error_sequential = getDifference(pi_sequential);
     double error_atomic = getDifference(pi_atomic);
     double error_reduction = getDifference(pi_reduction);
-
+ 
     // Print iteration and thread counts.
     printf("%" PRId64 ",%d,", iterations, numberOfThreads);
 

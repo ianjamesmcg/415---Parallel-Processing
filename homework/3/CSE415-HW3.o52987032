@@ -1,0 +1,2 @@
+gcc -o pi.x ./src//main.c ./src//atomic.o ./src//reduction.o ./src//sequential.o -std=gnu99 -Wall -Wextra -O3  -fopenmp -lm
+Compilation complete.

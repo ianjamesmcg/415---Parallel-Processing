@@ -61,4 +61,32 @@ make
 #
 # Execute tests.
 #
-./pi.x <iterations> <thread counts>
+./pi.x 1000 1 &>> OUTFILE
+./pi.x 1000 2 &>> OUTFILE
+./pi.x 1000 4 &>> OUTFILE
+./pi.x 1000 8 &>> OUTFILE
+./pi.x 1000 16 &>> OUTFILE
+./pi.x 1000 28 &>> OUTFILE
+./pi.x 100000 1 &>> OUTFILE
+./pi.x 100000 2 &>> OUTFILE
+./pi.x 100000 4 &>> OUTFILE
+./pi.x 100000 8 &>> OUTFILE
+./pi.x 100000 16 &>> OUTFILE
+./pi.x 100000 28 &>> OUTFILE
+./pi.x 10000000 1 &>> OUTFILE
+./pi.x 10000000 2 &>> OUTFILE
+./pi.x 10000000 4 &>> OUTFILE
+./pi.x 10000000 8 &>> OUTFILE
+./pi.x 10000000 16 &>> OUTFILE
+./pi.x 10000000 28 &>> OUTFILE
+./pi.x 1000000000 1 &>> OUTFILE
+./pi.x 1000000000 2 &>> OUTFILE
+./pi.x 1000000000 4 &>> OUTFILE
+./pi.x 1000000000 8 &>> OUTFILE
+./pi.x 1000000000 16 &>> OUTFILE
+./pi.x 1000000000 28 &>> OUTFILE
+
+
+
+
+
