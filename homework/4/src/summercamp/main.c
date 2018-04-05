@@ -11,6 +11,11 @@
 
 #include "summercamp_paralleli_dynamic.h"
 #include "summercamp_parallelj_dynamic.h"
+
+#include "summercamp_paralleli_static_chunk.h"
+#include "summercamp_paralleli_dynamic_chunk.h"
+#include "summercamp_parallelj_static_chunk.h"
+#include "summercamp_parallelj_dynamic_chunk.h"
 int cmp_func(const void *a , const void *b)
 {
     return ( *(int *) a - *(int *) b );
@@ -86,7 +91,7 @@ int main(int argc, char* argv[])
         time_quicksort = stop - start;
     }
     printf("quicksort: %.4e\n", time_quicksort);
-
+/*
     // Run i-version of summercamp.
     {
         double start = omp_get_wtime();
@@ -171,6 +176,317 @@ int main(int argc, char* argv[])
     printf("j dynamic %.4e,", time_j);
 
     diff = difference(a,c,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-dynamic-version of summercamp produces incorrect result.\n" );
+*/
+    //CHUNK SIZE VERSIONS
+
+	//Static i Chunk
+/*
+    // Run i-version of summercamp with static scheduling and chunk size 1
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_static_chunk( n, b, temp, numberOfThreads, 1 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i static chunk 1 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-static-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with static scheduling and chunk size 2
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_static_chunk( n, b, temp, numberOfThreads, 2 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i static chunk 2 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-static-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with static scheduling and chunk size 5
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_static_chunk( n, b, temp, numberOfThreads, 5 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i static chunk 5 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-static-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with static scheduling and chunk size 10
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_static_chunk( n, b, temp, numberOfThreads, 10 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i static chunk 10 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-static-version of summercamp produces incorrect result.\n" );
+*/
+    // Run i-version of summercamp with static scheduling and chunk size 1000
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_static_chunk( n, b, temp, numberOfThreads, 1000 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i static chunk 1000 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-static-version of summercamp produces incorrect result.\n" );
+/*
+	//Dynamic i Chunk
+
+    // Run i-version of summercamp with dynamic scheduling and chunk size 1
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_dynamic_chunk( n, b, temp, numberOfThreads, 1 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i dynamic chunk 1 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with dynamic scheduling and chunk size 2
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_dynamic_chunk( n, b, temp, numberOfThreads, 2 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i dynamic chunk 2 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with dynamic scheduling and chunk size 5
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_dynamic_chunk( n, b, temp, numberOfThreads, 5 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i dynamic chunk 5 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run i-version of summercamp with static scheduling and chunk size 10
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_dynamic_chunk( n, b, temp, numberOfThreads, 10 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i dynamic chunk 10 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-dynamic-version of summercamp produces incorrect result.\n" );
+*/
+    // Run i-version of summercamp with dynamic scheduling and chunk size 1000
+    {
+        double start = omp_get_wtime();
+        summercamp_paralleli_dynamic_chunk( n, b, temp, numberOfThreads, 1000 );
+        double stop = omp_get_wtime();
+        time_i = stop - start;
+    }
+    printf("i dynamic chunk 1000 %.4e,", time_i);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "i-dynamic-version of summercamp produces incorrect result.\n" );
+/*
+	//Static j Chunk
+
+    // Run j-version of summercamp with static scheduling and chunk size 1
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_static_chunk( n, b, temp, numberOfThreads, 1 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j static chunk 1 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-static-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with static scheduling and chunk size 2
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_static_chunk( n, b, temp, numberOfThreads, 2 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j static chunk 2 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-static-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with static scheduling and chunk size 5
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_static_chunk( n, b, temp, numberOfThreads, 5 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j static chunk 5 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-static-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with static scheduling and chunk size 10
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_static_chunk( n, b, temp, numberOfThreads, 10 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j static chunk 10 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-static-version of summercamp produces incorrect result.\n" );
+*/
+    // Run j-version of summercamp with static scheduling and chunk size 1000
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_static_chunk( n, b, temp, numberOfThreads, 1000 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j static chunk 1000 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-static-version of summercamp produces incorrect result.\n" );
+/*
+	//Dynamic j Chunk
+
+
+    // Run j-version of summercamp with dynamic scheduling and chunk size 1
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_dynamic_chunk( n, b, temp, numberOfThreads, 1 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j dynamic chunk 1 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with dynamic scheduling and chunk size 2
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_dynamic_chunk( n, b, temp, numberOfThreads, 2 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j dynamic chunk 2 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with dynamic scheduling and chunk size 5
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_dynamic_chunk( n, b, temp, numberOfThreads, 5 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j dynamic chunk 5 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-dynamic-version of summercamp produces incorrect result.\n" );
+
+    // Run j-version of summercamp with static scheduling and chunk size 10
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_dynamic_chunk( n, b, temp, numberOfThreads, 10 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j dynamic chunk 10 %.4e,", time_j);
+
+    diff = difference(a,b,n);
+    printf("%d\n", diff);
+
+    if ( diff == 0 )
+        fprintf( stdout, "j-dynamic-version of summercamp produces incorrect result.\n" );
+*/
+    // Run j-version of summercamp with dynamic scheduling and chunk size 1000
+    {
+        double start = omp_get_wtime();
+        summercamp_parallelj_dynamic_chunk( n, b, temp, numberOfThreads, 1000 );
+        double stop = omp_get_wtime();
+        time_j = stop - start;
+    }
+    printf("j dynamic chunk 1000 %.4e,", time_j);
+
+    diff = difference(a,b,n);
     printf("%d\n", diff);
 
     if ( diff == 0 )

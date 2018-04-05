@@ -1,0 +1,25 @@
+100000, 20,quicksort: 9.0486e-03
+i static chunk 1 1.6932e+00,1
+i static chunk 2 3.4382e-01,1
+i static chunk 5 3.4207e-01,1
+i static chunk 10 3.2765e-01,1
+i static chunk 100 3.0731e-01,1
+i static chunk 1000 1.6856e+00,1
+i dynamic chunk 1 2.5204e-01,1
+i dynamic chunk 2 2.5994e-01,1
+i dynamic chunk 5 2.6167e-01,1
+i dynamic chunk 10 2.6018e-01,1
+i dynamic chunk 100 2.6449e-01,1
+i dynamic chunk 1000 2.5889e-01,1
+j static chunk 1 2.1975e+00,1
+j static chunk 2 2.1261e+00,1
+j static chunk 5 1.6984e+00,1
+j static chunk 10 1.3907e+00,1
+j static chunk 100 1.2973e+00,1
+j static chunk 1000 1.2791e+00,1
+j dynamic chunk 1 8.6833e+02,1
+j dynamic chunk 2 3.9256e+02,1
+j dynamic chunk 5 1.5543e+02,1
+j dynamic chunk 10 9.2967e+01,1
+j dynamic chunk 100 9.6062e+00,1
+j dynamic chunk 1000 2.2659e+00,1

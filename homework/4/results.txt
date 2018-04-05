@@ -1,49 +1,91 @@
-100000, 1,quicksort: 9.3694e-03
-i 2.6629e+01,1
-j 2.5313e+01,1
-i static 4.6915e-08,1
-j static 5.4017e-08,1
-i dynamic 4.5053e-08,1
-j dynamic 4.4936e-08,1
-100000, 2,quicksort: 9.1295e-03
-i 1.3504e+01,1
-j 1.3305e+01,1
-i static 1.4994e-07,1
-j static 5.9954e-08,1
-i dynamic 5.9954e-08,1
-j dynamic 7.1945e-08,1
-100000, 4,quicksort: 9.2269e-03
-i 7.0854e+00,1
-j 7.2225e+00,1
-i static 1.7195e-07,1
-j static 5.3085e-08,1
-i dynamic 4.9942e-08,1
-j dynamic 7.3924e-08,1
-100000, 5,quicksort: 8.9025e-03
-i 5.7574e+00,1
-j 5.9710e+00,1
-i static 6.4960e-08,1
-j static 5.9954e-08,1
-i dynamic 3.5041e-08,1
-j dynamic 5.4948e-08,1
-100000, 14,quicksort: 8.9057e-03
-i 2.1797e+00,1
-j 2.6748e+00,1
-i static 6.1002e-08,1
-j static 6.7987e-08,1
-i dynamic 5.2038e-08,1
-j dynamic 5.9023e-08,1
-100000, 20,quicksort: 9.6439e-03
-i 1.5255e+00,1
-j 2.4589e+00,1
-i static 6.9034e-08,1
-j static 6.1002e-08,1
-i dynamic 5.4017e-08,1
-j dynamic 6.1933e-08,1
-100000, 28,quicksort: 9.8083e-03
-i 1.4486e+00,1
-j 2.3335e+00,1
-i static 8.3004e-08,1
-j static 6.1002e-08,1
-i dynamic 6.1002e-08,1
-j dynamic 6.1002e-08,1
+100000, 1,quicksort: 1.1693e-02
+i 4.0475e+01,1
+j 3.6529e+01,1
+i static 6.1274e+00,1
+j static 6.4465e+00,1
+i dynamic 6.1851e+00,1
+j dynamic 1.7178e+02,1
+100000, 2,quicksort: 1.1968e-02
+i 2.0227e+01,1
+j 1.8518e+01,1
+i static 3.1091e+00,1
+j static 3.4331e+00,1
+i dynamic 3.0443e+00,1
+j dynamic 6.0807e+02,1
+100000, 4,quicksort: 1.1713e-02
+i 1.0157e+01,1
+j 9.0209e+00,1
+i static 1.7506e+00,1
+j static 2.0269e+00,1
+i dynamic 1.5572e+00,1
+j dynamic 7.8559e+02,1
+100000, 8,quicksort: 1.1767e-02
+i 5.0792e+00,1
+j 4.7694e+00,1
+i static 1.0166e+00,1
+j static 1.2592e+00,1
+i dynamic 8.0220e-01,1
+j dynamic 1.0193e+03,1
+100000, 14,quicksort: 1.1742e-02
+i static chunk 1 2.6231e+00,1
+i static chunk 2 4.9864e-01,1
+i static chunk 5 4.9851e-01,1
+i static chunk 10 4.9814e-01,1
+i static chunk 100 4.8636e-01,1
+i dynamic chunk 1 4.3757e-01,1
+i dynamic chunk 2 4.4279e-01,1
+i dynamic chunk 5 4.3944e-01,1
+i dynamic chunk 10 4.5077e-01,1
+i dynamic chunk 100 4.5815e-01,1
+j static chunk 1 2.5673e+00,1
+j static chunk 2 2.2075e+00,1
+j static chunk 5 1.8422e+00,1
+j static chunk 10 1.6140e+00,1
+j static chunk 100 1.2295e+00,1
+j dynamic chunk 1 6.1382e+02,1
+j dynamic chunk 2 4.5815e-01,1
+j dynamic chunk 5 4.5815e-01,1
+j dynamic chunk 10 4.5815e-01,1
+j dynamic chunk 100 4.5815e-01,1
+100000, 20,quicksort: 1.1756e-02
+i static chunk 1 1.8568e+00,1
+i static chunk 2 3.4924e-01,1
+i static chunk 5 3.4979e-01,1
+i static chunk 10 3.4905e-01,1
+i static chunk 100 3.5020e-01,1
+i dynamic chunk 1 3.0835e-01,1
+i dynamic chunk 2 3.1447e-01,1
+i dynamic chunk 5 3.1199e-01,1
+i dynamic chunk 10 3.2003e-01,1
+i dynamic chunk 100 3.1846e-01,1
+j static chunk 1 2.3492e+00,1
+j static chunk 2 2.0969e+00,1
+j static chunk 5 1.7939e+00,1
+j static chunk 10 1.4272e+00,1
+j static chunk 100 1.4043e+00,1
+j dynamic chunk 1 8.6985e+02,1
+j dynamic chunk 2 3.1846e-01,1
+j dynamic chunk 5 3.1846e-01,1
+j dynamic chunk 10 3.1846e-01,1
+j dynamic chunk 100 3.1846e-01,1
+100000, 28,quicksort: 1.1751e-02
+i static chunk 1 1.6317e+00,1
+i static chunk 2 2.8531e-01,1
+i static chunk 5 2.9913e-01,1
+i static chunk 10 2.9766e-01,1
+i static chunk 100 2.9185e-01,1
+i dynamic chunk 1 2.1886e-01,1
+i dynamic chunk 2 2.2227e-01,1
+i dynamic chunk 5 2.1983e-01,1
+i dynamic chunk 10 2.1918e-01,1
+i dynamic chunk 100 2.2602e-01,1
+j static chunk 1 1.4096e+01,1
+j static chunk 2 9.0280e+00,1
+j static chunk 5 2.0547e+00,1
+j static chunk 10 8.0446e+00,1
+j static chunk 100 1.5618e+00,1
+j dynamic chunk 1 7.4392e+02,1
+j dynamic chunk 2 3.7370e+02,1
+j dynamic chunk 5 1.7588e+02,1
+j dynamic chunk 10 9.4179e+01,1
+j dynamic chunk 100 1.2244e+01,1

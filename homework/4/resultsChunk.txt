@@ -1,0 +1,5 @@
+100000, 20,quicksort: 8.8505e-03
+i static chunk 1000 1.6856e+00,1
+i dynamic chunk 1000 2.5889e-01,1
+j static chunk 1000 1.2791e+00,1
+j dynamic chunk 1000 2.2659e+00,1

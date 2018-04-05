@@ -1,0 +1,49 @@
+100000, 1,quicksort: 8.9854e-03
+i 2.9546e+01,1
+j 2.5288e+01,1
+i static 4.4703e+00,1
+j static 1.5344e+01,1
+i dynamic 4.4572e+00,1
+j dynamic 1.2826e+02,1
+100000, 2,quicksort: 9.9563e-03
+i 1.5091e+01,1
+j 1.3256e+01,1
+i static 2.2580e+00,1
+j static 8.1016e+00,1
+i dynamic 2.2385e+00,1
+j dynamic 4.4030e+02,1
+100000, 4,quicksort: 9.7902e-03
+i 7.7621e+00,1
+j 7.2619e+00,1
+i static 1.1992e+00,1
+j static 4.6620e+00,1
+i dynamic 1.1560e+00,1
+j dynamic 7.7733e+02,1
+100000, 8,quicksort: 8.9052e-03
+i 4.2143e+00,1
+j 4.1260e+00,1
+i static 6.3113e-01,1
+j static 2.8220e+00,1
+i dynamic 6.3059e-01,1
+j dynamic 9.7977e+02,1
+100000, 14,quicksort: 8.8981e-03
+i 2.4028e+00,1
+j 2.6779e+00,1
+i static 4.1371e-01,1
+j static 2.3098e+00,1
+i dynamic 4.0688e-01,1
+j dynamic 6.2027e+02,1
+100000, 20,quicksort: 9.3427e-03
+i 1.7011e+00,1
+j 2.4263e+00,1
+i static 2.9181e-01,1
+j static 2.2482e+00,1
+i dynamic 2.8698e-01,1
+j dynamic 8.0139e+02,1
+100000, 28,quicksort: 9.7828e-03
+i 1.6822e+00,1
+j 3.5507e+00,1
+i static 2.2788e-01,1
+j static 9.7059e+00,1
+i dynamic 1.9043e-01,1
+j dynamic 6.5026e+02,1

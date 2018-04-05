@@ -6,13 +6,12 @@
 //
 // TODO: - Parallelize the *** j-loop *** in this source file.
 //
-void summercamp_parallelj_static( const int kids_count, int * const heights, int * const temp, const int numberOfThreads ) {
-
+void summercamp_parallelj_dynamic_chunk( const int kids_count, int * const heights, int * const temp, const int numberOfThreads, const int chunk ) {
 	int count;
 	int k,i,j;
 	for (  i = 0 ; i < kids_count ; i++ ) {
 		count = 0;
-		#pragma omp parallel for num_threads(numberOfThreads) private(j) schedule(static) reduction(+:count)
+		#pragma omp parallel for num_threads(numberOfThreads) private(j) schedule(dynamic, chunk) reduction(+:count)
 		for (  j = 0 ; j < kids_count ; j++ ) {
 			if(heights[j] < heights[i])
 				count++;

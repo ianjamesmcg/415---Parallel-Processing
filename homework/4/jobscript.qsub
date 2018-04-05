@@ -50,5 +50,5 @@ cd ${PBS_O_WORKDIR}
 # matrix sizes, collecting cache utilization data using the TAU-instrumented version,
 # etc.)
 #
-
-./writeResults.bash
+make -f makefile
+./writeResultsChunk.bash

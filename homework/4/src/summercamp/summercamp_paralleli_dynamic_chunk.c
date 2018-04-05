@@ -6,12 +6,12 @@
 //
 // TODO: - Parallelize the *** i-loop *** in this source file.
 //
-void summercamp_paralleli_dynamic( const int kids_count, int * const heights, int * const temp, const int numberOfThreads ) {
+void summercamp_paralleli_dynamic_chunk( const int kids_count, int * const heights, int * const temp, const int numberOfThreads, const int chunk ) {
 	int count;
 	int i,j;
 	#pragma omp parallel num_threads(numberOfThreads) private(count,i,j) 
 	{
-		#pragma omp for schedule(dynamic)
+		#pragma omp for schedule(dynamic, chunk)
 		for (  i = 0 ; i < kids_count ; i++ ) {
 			count = 0;
 			for (  j = 0 ; j < kids_count ; j++ ) {
