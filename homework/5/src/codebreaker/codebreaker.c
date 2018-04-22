@@ -205,6 +205,7 @@ int main( int argc,char *argv[] ) {
 
     tstart = MPI_Wtime();
 
+
     for ( i = 0; i < pow( 2, sizeof(uint32_t)*8 ); ++i ) {
 
         decrypt32( encrypted, i, decrypted );

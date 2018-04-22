@@ -4,7 +4,7 @@
 # Use standard intel16 "laconia" nodes.
 #
 #PBS -l feature="lac"
-#PBS -l nodes=5:ppn=28
+#PBS -l nodes=1:ppn=28
 
 #
 # Expected runtime of job. Make sure to request a little bit extra.
@@ -51,4 +51,4 @@ cd ${PBS_O_WORKDIR}
 # etc.)
 #
 make -f makefile
-mpirun -n 100 ./mpi_sqrt.x 500000000
+mpirun -n 1 ./mpi_sqrt.x inp2.txt
