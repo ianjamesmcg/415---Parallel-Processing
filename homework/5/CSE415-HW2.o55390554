@@ -1,0 +1,9 @@
+mpicc -o mpi_sqrt.x ./src/mpi_sqrt/mpi_sqrt.c -std=gnu99 -O3
+mpicc -o encrypter.x ./src/codebreaker/encrypter.c -std=gnu99 -O3
+mpicc -o codebreaker.x ./src/codebreaker/codebreaker.c -std=gnu99 -O3
+Compilation complete.
+The old array: 
+91.000000 26.000000 82.000000 37.000000 5.000000 65.000000 73.000000 66.000000 65.000000 21.000000 
+Sequential Time = 4.219387
+new array after mpi implementation : 9.539392  5.099020  9.055385  6.082763  2.236068  8.062258  8.544004  8.124038  8.062258  4.582576  
+parallel time needed 6.638138
