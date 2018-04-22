@@ -51,4 +51,4 @@ cd ${PBS_O_WORKDIR}
 # etc.)
 #
 make -f makefile
-mpirun -n 1 ./mpi_sqrt.x inp2.txt
+mpirun -n 1 ./codebreaker.x inp1.txt
