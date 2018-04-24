@@ -39,6 +39,7 @@ int main(int argc, char** argv)
     MPI_Comm_rank(MPI_COMM_WORLD, &MyRank);
     MPI_Comm_size(MPI_COMM_WORLD, &procs);
 
+	printf("rank: %i", MyRank);
 	N = atoi(argv[1]);
     //this is the given array which has the record of distribution
     int *proc_elems = (int*)malloc(sizeof(int)*procs);
