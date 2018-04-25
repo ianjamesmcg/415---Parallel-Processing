@@ -51,4 +51,5 @@ cd ${PBS_O_WORKDIR}
 # etc.)
 #
 make -f makefile
-mpirun -n 1 ./codebreaker.x inp1.txt
+./encrypter.x inp2.txt 429496720
+mpirun -n 28 ./codebreaker.x inp2.txt.ecp

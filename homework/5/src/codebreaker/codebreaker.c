@@ -227,7 +227,7 @@ int main( int argc,char *argv[] ) {
 
         strcpy(dcopy, decrypted);
 
-		if(i % 7) {
+		if(i % 5) {
 	    	MPI_Test(&request, &success, &status);
 			if(success){
 	  			break;
