@@ -52,4 +52,7 @@ cd ${PBS_O_WORKDIR}
 #
 make -f makefile
 ./encrypter.x inp2.txt 429496720
+
+mpirun -n 8 ./codebreaker.x inp2.txt.ecp
+mpirun -n 16 ./codebreaker.x inp2.txt.ecp
 mpirun -n 28 ./codebreaker.x inp2.txt.ecp

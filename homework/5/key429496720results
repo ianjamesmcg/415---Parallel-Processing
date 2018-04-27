@@ -1,0 +1,123 @@
+mpicc -o mpi_sqrt.x ./src/mpi_sqrt/mpi_sqrt.c -std=gnu99 -O3
+mpicc -o encrypter.x ./src/codebreaker/encrypter.c -std=gnu99 -O3
+mpicc -o codebreaker.x ./src/codebreaker/codebreaker.c -std=gnu99 -O3
+Compilation complete.
+x0r 32-bit File Encryption
+encryting file inp2.txt using key 429496720...
+To quit, press ctrl + c
+
+Status: 
+a = b, b = i, c = r, d = d
+p = 0, mag = 29, xor = -454811323
+da = 4b2413c, db = 4b241, dc = 4b2, dd = 4
+
+a =  , b = s, c = p, d = r
+p = 1, mag = 8, xor = -606787848
+da = a555d8a9, db = a555d8, dc = a555, dd = a5
+
+a = i, b = n, c = g, d =  
+p = 0, mag = 4, xor = 1241995345
+da = 86a60363, db = 86a603, dc = 86a6, dd = 86
+
+a = t, b = r, c = e, d = e
+p = 0, mag = 3, xor = 499357907
+da = ef14dd54, db = ef14dd, dc = ef14, dd = ef
+
+a =  , b = s, c = u, d = n
+p = 0, mag = 6, xor = -220655238
+da = 6a72b189, db = 6a72b1, dc = 6a72, dd = 6a
+
+a =  , b = t, c = h, d = e
+p = 1, mag = 11, xor = -679104519
+da = 6edecd97, db = 6edecd, dc = 6ede, dd = 6e
+
+a =  , b = c, c = a, d = m
+p = 0, mag = 5, xor = -2119820633
+da = 3f663bcc, db = 3f663b, dc = 3f66, dd = 3f
+
+a = p, b = u, c = s, d =  
+p = 0, mag = 1, xor = -1947694876
+da = 55cdfeca, db = 55cdfe, dc = 55cd, dd = 55
+
+a = c, b = l, c = a, d = s
+p = 0, mag = 26, xor = -1487422144
+da = db448f5, db = db448, dc = db4, dd = d
+
+a = s, b =  , c = i, d = f
+p = 0, mag = 26, xor = -2044947560
+da = 1d6cfaf8, db = 1d6cfa, dc = 1d6c, dd = 1d
+
+a =  , b = b, c = i, d = r
+p = 0, mag = 20, xor = 1668200723
+da = 7db33110, db = 7db331, dc = 7db3, dd = 7d
+
+a = d, b =  , c = g, d = r
+p = 1, mag = 4, xor = 1491610226
+da = a8f0a162, db = a8f0a1, dc = a8f0, dd = a8
+
+a = o, b = u, c = n, d = d
+p = 1, mag = 8, xor = -216289157
+da = 75c51497, db = 75c514, dc = 75c5, dd = 75
+
+a =  , b = g, c = r, d = a
+p = 1, mag = 10, xor = 1990607155
+da = 50984c5f, db = 50984c, dc = 5098, dd = 50
+
+a = s, b = s, c =  , d = t
+p = 0, mag = 11, xor = -311588736
+da = 7e7329bf, db = 7e7329, dc = 7e73, dd = 7e
+
+a = r, b = e, c = e, d =  
+p = 1, mag = 30, xor = -1268216722
+da = 25037a47, db = 25037a, dc = 2503, dd = 25
+
+a = c, b = l, c = a, d = s
+p = 1, mag = 19, xor = -220996836
+da = bbfc0d95, db = bbfc0d, dc = bbfc, dd = bb
+
+done!
+
+
+x0r 32-bit code breaker
+
+decrypting file inp2.txt.ecp by trying all possible keys...
+To quit, press ctrl + c
+
+Status:
+
+File decrypted successfully using key 429496720
+See the file inp2.txt.ecp.out
+
+
+
+Time elapsed: 1.941454e+02 seconds
+
+
+x0r 32-bit code breaker
+
+decrypting file inp2.txt.ecp by trying all possible keys...
+To quit, press ctrl + c
+
+Status:
+
+File decrypted successfully using key 429496720
+See the file inp2.txt.ecp.out
+
+
+
+Time elapsed: 9.912747e+01 seconds
+
+
+x0r 32-bit code breaker
+
+decrypting file inp2.txt.ecp by trying all possible keys...
+To quit, press ctrl + c
+
+Status:
+
+Time elapsed: 6.085514e+01 seconds
+
+File decrypted successfully using key 429496720
+See the file inp2.txt.ecp.out
+
+
